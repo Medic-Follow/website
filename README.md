@@ -1,3 +1,3 @@
-u# Medic-Follow.github.io -> website
+Medic-Follow.github.io -> website
 
 https://medic-follow.github.io/website/
