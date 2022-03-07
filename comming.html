@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <title>MedicFollow</title>
+    <title>Ayurvedic - Medical Template</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="images/cropped-favicon-32x32.png" />
     <!-- Bootstrap core CSS -->
@@ -21,38 +16,37 @@
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
-</head>
-
-<body>
+  </head>
+  <body>
     <!-- Preloader -->
     <div id="preloader">
-        <div id="status"></div>
+      <div id="status"></div>
     </div>
     <!-- Preloader Ends -->
 
     <!-- Comming Soon start -->
     <section class="comming-soon">
-        <div class="container">
-            <div class="comming__soon_text text-center">
-                <div class="mb-10">
-                    <img src="images/logo-w.png" alt="" />
-                    <h3 class="cl-white mt-3">Medical Healthcare Elementor Template Kits</h3>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12 text-center">
-                        <div class="sc-title-two sc-title-two-white w-100 mb-7 text-center mb-3">
-                            <img src="images/banner/Thank-You-Paramedic-Graphic-01-01.png" class="w-75" alt="" />
-                            <h2 class="cl-white">We Are Launching Soon</h2>
-                        </div>
-                        <p class="cl-lgreen">Our website is under construction. We will be here soon with our awesome new site, Je m'abonne to be notified.</p>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div id="countdown"></div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="comming__soon_text text-center">
+          <div class="mb-10">
+            <img src="images/logo-w.png" alt="" />
+            <h3 class="cl-white mt-3">Medical Healthcare Elementor Template Kits</h3>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 text-center">
+              <div class="sc-title-two sc-title-two-white w-100 mb-7 text-center mb-3">
+                <img src="images/banner/Thank-You-Paramedic-Graphic-01-01.png" class="w-75" alt="" />
+                <h2 class="cl-white">We Are Launching Soon</h2>
+              </div>
+              <p class="cl-lgreen">Our website is under construction. We will be here soon with our awesome new site, subscribe to be notified.</p>
             </div>
+            <div class="col-lg-6 col-md-12">
+              <div id="countdown"></div>
+            </div>
+          </div>
         </div>
-        <div class="sl-overlay darkclr"></div>
+      </div>
+      <div class="sl-overlay darkclr"></div>
     </section>
     <!-- Comming Soon end -->
 
@@ -66,35 +60,34 @@
     <script src="js/custom-swiper.js"></script>
     <script src="js/custom-nav.js"></script>
     <script>
-        //Countdown
-        // Set the date we're counting down to
-        var countDownDate = new Date("Mar 5, 2022 15:37:25").getTime();
+      //Countdown
+      // Set the date we're counting down to
+      var countDownDate = new Date("Mar 5, 2022 15:37:25").getTime();
 
-        // Update the count down every 1 second
-        var x = setInterval(function() {
-            // Get today's date and time
-            var now = new Date().getTime();
+      // Update the count down every 1 second
+      var x = setInterval(function () {
+        // Get today's date and time
+        var now = new Date().getTime();
 
-            // Find the distance between now and the count down date
-            var distance = countDownDate - now;
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
 
-            // Time calculations for days, hours, minutes and seconds
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            // Output the result in an element with id="countdown"
-            document.getElementById("countdown").innerHTML =
-                days + "<span>Days </span>" + hours + "<span>Hours </span>" + minutes + "<span>Minutes </span>" + seconds + "<span>Seconds </span>";
+        // Output the result in an element with id="countdown"
+        document.getElementById("countdown").innerHTML =
+          days + "<span>Days </span>" + hours + "<span>Hours </span>" + minutes + "<span>Minutes </span>" + seconds + "<span>Seconds </span>";
 
-            // If the count down is over, write some text
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("countdown").innerHTML = "EXPIRED";
-            }
-        }, 1000);
+        // If the count down is over, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("countdown").innerHTML = "EXPIRED";
+        }
+      }, 1000);
     </script>
-</body>
-
+  </body>
 </html>

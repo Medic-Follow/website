@@ -6,7 +6,7 @@ $footer-blue: #001c38;
 $lblue: #1bbde4;
 $lblue1: #13ade5;
 $green: #12b48b;
-$lgreen: #1DAC90;
+$lgreen: #61ce70;
 $dull: #7a7a7a;
 $lgrey2: #adadad;
 $lgrey: #eaeaea;
@@ -15,6 +15,7 @@ $sfgrey: #fafafa;
 $sfgrey-2: #fbfbfb;
 $sfgrey-3: #f1f1f1;
 $black: #000000;
+
 // font-styling
 $fonticon: "fontawesome";
 $fontbold: 600;
@@ -25,19 +26,23 @@ $fontlineheight: 1.5;
 $fontitalic: italic;
 $textupper: uppercase;
 $textcap: capitalize;
+
 $transition: all ease-in-out 0.3s;
 $size100: 100%;
+
 // border
 $borderall: 1px solid rgb(147, 147, 147);
 $borderdashed: 1px dashed rgb(179, 179, 179);
+
 $box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.13);
+
 @mixin include-img($zvalue, $image, $att, $sz, $x: 50%, $y: 50%) {
-    background: {
-        image: $image;
-        repeat: no-repeat;
-        attachment: $att;
-        size: $sz;
-        position: $x $y;
-    }
-    z-index: $zvalue;
+  background: {
+    image: $image;
+    repeat: no-repeat;
+    attachment: $att;
+    size: $sz;
+    position: $x $y;
+  }
+  z-index: $zvalue;
 }

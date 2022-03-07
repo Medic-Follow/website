@@ -13,9 +13,17 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <!--Plugin CSS-->
     <link href="css/plugin.css" rel="stylesheet" type="text/css" />
+    <!--ashboard CSS-->
+    <link href="css/dashboard.css" rel="stylesheet" type="text/css" />
+    <!--Flaticons CSS-->
+    <link href="fonts/flaticon.css" rel="stylesheet" type="text/css" />
+    <!--Icons CSS-->
+    <link href="css/icons.css" rel="stylesheet" type="text/css" />
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="fonts/line-icons.css" type="text/css" />
   </head>
   <body>
     <!-- Preloader -->
@@ -134,7 +142,7 @@
                       <li><a href="dashboard-messages.html">Messages</a></li>
                       <li><a href="dashboard-history.html">Patients History</a></li>
                       <li><a href="dashboard-add-new.html">Add New Patients</a></li>
-                      <li><a href="dashboard-patient-list.html">Patients List</a></li>
+                      <li><a href="dashboard-list.html">Patients List</a></li>
                       <li><a href="dashboard-reviews.html">Patients Reviews</a></li>
                     </ul>
                   </li>
@@ -142,8 +150,18 @@
                 </ul>
               </div>
 
-              <div class="header-btn">
-                <a href="contact.html" class="btn">Book Appointment</a>
+              <div class="register-login">
+                <div class="dropdown">
+                  <button class="btn-dash dropdown-toggle" type="button" id="dropdownMenuButton11" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-user-circle"></i> My Account
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton11">
+                    <a class="dropdown-item" href="#"><i class="sl sl-icon-settings"></i> Settings</a>
+                    <a class="dropdown-item" href="#"><i class="sl sl-icon-user"></i> Profile</a>
+                    <a class="dropdown-item" href="#"><i class="sl sl-icon-lock"></i> Change Password</a>
+                    <a class="dropdown-item" href="#"><i class="sl sl-icon-power"></i> Logout</a>
+                  </div>
+                </div>
               </div>
               <!-- /.navbar-collapse -->
               <div id="slicknav-mobile"></div>
@@ -156,135 +174,225 @@
     </header>
     <!-- header ends -->
 
-    <!-- Breadcrumb start -->
-    <section class="breadcrumb-wrap">
+    <!-- Dashboard -->
+    <div id="dashboard">
       <div class="container">
-        <h2 class="cl-white mb-0">Contact Us</h2>
-      </div>
-      <div class="overlay"></div>
-    </section>
-    <!-- Breadcrumb end -->
-
-    <!-- Contact start -->
-    <section class="contact-us">
-      <div class="container">
-        <div class="sc-title-two text-center">
-          <h4 class="cl-green">Let Us Help You</h4>
-          <h2>Have Queries Before The Appointment?</h2>
-        </div>
-        <div class="row mb-7">
-          <div class="col-lg-4 col-md-6">
-            <div class="ct-detail-list d-flex align-items-center border border-light-c1 bg-sfgrey-2 p-4 mb-3">
-              <i class="fas fa-phone-alt fs-1"></i>
-              <div class="pl-4">
-                <h3>+95 425 11554</h3>
-                <p class="mb-0">Call Today</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="ct-detail-list d-flex align-items-center border border-light-c1 bg-sfgrey-2 p-4 mb-3">
-              <i class="far fa-envelope fs-1"></i>
-              <div class="pl-4">
-                <h3>info@ayurvedic.com</h3>
-                <p class="mb-0">Feel Free To Mail Us</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="ct-detail-list d-flex align-items-center border border-light-c1 bg-sfgrey-2 p-4 mb-3">
-              <i class="fas fa-map-marker-alt fs-1"></i>
-              <div class="pl-4">
-                <h3>14 Street Brooklyn, NY</h3>
-                <p class="mb-0">Find Our Location</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-12">
-            <div class="map-wrap">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18534.05213435798!2d-73.96033225713114!3d40.66883958891999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24416947c2109%3A0x82765c7404007886!2sBrooklyn%2C%20NY%2C%20USA!5e0!3m2!1sen!2snp!4v1642930373102!5m2!1sen!2snp"
-                width="600"
-                height="450"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-              ></iframe>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-12 ps-lg-5">
-            <form class="text-center">
-              <div class="row mb-3">
-                <div class="form-outline">
-                  <input type="text" id="form6Example1" class="form-control bg-sfgrey-2 border border-light-c" placeholder="Full Name" />
+        <div class="dashboard-main">
+          <div class="row">
+            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+              <div class="dashboard-sidebar">
+                <div class="profile-sec">
+                  <div class="author-news mb-3">
+                    <div class="author-news-content text-center p-3">
+                      <div class="author-thumb mt-0">
+                        <img src="images/team/user-1.jpg" alt="author" />
+                      </div>
+                      <div class="author-content pt-2 p-0">
+                        <h3 class="mb-1 white"><a href="#" class="white">Ketty Nelson</a></h3>
+                        <p class="detail"><i class="fa fa-map-marker"></i> 264, Carson Street USA, KY 40539</p>
+                        <p class="detail"><i class="fa fa-phone"></i> +45 8547 9851</p>
+                        <div class="social-links-a square-link mt-2">
+                          <ul>
+                            <li>
+                              <a href="#" class="bg-fb cl-white rounded-0"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                              <a href="#" class="bg-linkedin cl-white rounded-0"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                              <a href="#" class="bg-twitter cl-white rounded-0"><i class="fab fa-twitter"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Responsive Navigation Trigger -->
+                <a href="#" class="dashboard-responsive-nav-trigger"><i class="fa fa-reorder"></i> Dashboard Navigation</a>
+                <div class="dashboard-nav">
+                  <div class="dashboard-nav-inner">
+                    <ul>
+                      <li>
+                        <a href="dashboard.html"><i class="sl sl-icon-settings"></i> Dashboard</a>
+                      </li>
+                      <li>
+                        <a href="dashboard-my-profile.html"><i class="sl sl-icon-user"></i> Profile</a>
+                      </li>
+                      <li class="active">
+                        <a href="dashboard-messages.html"><i class="sl sl-icon-envelope-open"></i> Messages</a>
+                      </li>
+                      <li>
+                        <a href="dashboard-reviews.html"><i class="sl sl-icon-star"></i> Reviews</a>
+                      </li>
+                      <li>
+                        <a href="dashboard-add-new.html"><i class="sl sl-icon-plus"></i> Add listing</a>
+                      </li>
+                      <li>
+                        <a href="dashboard-list.html"><i class="sl sl-icon-layers"></i> Listing</a>
+                      </li>
+                      <li>
+                        <a href="dashboard-history.html"><i class="fa fa-list-ul"></i>Booking History</a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="sl sl-icon-power"></i> Logout</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-              <div class="form-outline mb-3">
-                <input type="number" id="form6Example6" class="form-control bg-sfgrey-2 border border-light-c" placeholder="Phone Number" />
+            </div>
+            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+              <div class="dashboard-content">
+                <div class="row">
+                  <div class="col-lg-4 col-md-12">
+                    <div class="message-list">
+                      <div class="message-search">
+                        <input type="text" placeholder="Search" />
+                      </div>
+                      <div class="inbox-item">
+                        <div class="inbox-image">
+                          <img src="images/team/user-2.jpg" alt="image" />
+                        </div>
+                        <div class="inbox-content">
+                          <p>Vincent Porter</p>
+                          <span>I'm going to office</span>
+                        </div>
+                        <span class="unread">2</span>
+                      </div>
+                      <div class="inbox-item">
+                        <div class="inbox-image">
+                          <img src="images/team/user-3.jpg" alt="image" />
+                        </div>
+                        <div class="inbox-content">
+                          <p>Jacob Brown</p>
+                          <span>You: WHere is Alex?</span>
+                        </div>
+                        <span class="unread">1</span>
+                      </div>
+                      <div class="inbox-item">
+                        <div class="inbox-image">
+                          <img src="images/team/user-3.jpg" alt="image" />
+                        </div>
+                        <div class="inbox-content">
+                          <p>Harry Taylor</p>
+                          <span>I'm going to office</span>
+                        </div>
+                      </div>
+                      <div class="inbox-item">
+                        <div class="inbox-image">
+                          <img src="images/team/user-4.jpg" alt="image" />
+                        </div>
+                        <div class="inbox-content">
+                          <p>Sarah Miller</p>
+                          <span>You: Okay</span>
+                        </div>
+                      </div>
+                      <div class="inbox-item">
+                        <div class="inbox-image">
+                          <img src="images/team/user-3.jpg" alt="image" />
+                        </div>
+                        <div class="inbox-content">
+                          <p>Joanna Davies</p>
+                          <span>Let's go!</span>
+                        </div>
+                      </div>
+                      <div class="inbox-item">
+                        <div class="inbox-image">
+                          <img src="images/team/user-2.jpg" alt="image" />
+                        </div>
+                        <div class="inbox-content">
+                          <p>Sam Lee</p>
+                          <span>Awesome</span>
+                        </div>
+                      </div>
+                      <div class="inbox-item">
+                        <div class="inbox-image">
+                          <img src="images/team/user-4.jpg" alt="image" />
+                        </div>
+                        <div class="inbox-content">
+                          <p>Vincent Porter</p>
+                          <span>I'm going to office</span>
+                        </div>
+                      </div>
+                      <div class="inbox-item">
+                        <div class="inbox-image">
+                          <img src="images/team/user-3.jpg" alt="image" />
+                        </div>
+                        <div class="inbox-content">
+                          <p>Jacob Brown</p>
+                          <span>You: Where is Alex?</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-md-12">
+                    <div class="message">
+                      <div class="message-header inbox-item">
+                        <div class="inbox-image">
+                          <img src="images/team/user-2.jpg" alt="image" />
+                        </div>
+                        <div class="inbox-content">
+                          <p>Vincent Porter</p>
+                          <span>was online today at 11:43</span>
+                        </div>
+                      </div>
+                      <div class="message-content">
+                        <div class="msg-received">
+                          <div class="msg-image">
+                            <img src="images/team/user-2.jpg" alt="image" />
+                          </div>
+                          <div class="msg-content">
+                            <p>Today, 10: 31</p>
+                            <p class="msg">Hello John!</p>
+                          </div>
+                        </div>
+                        <div class="msg-received">
+                          <div class="msg-image">
+                            <img src="images/team/user-2.jpg" alt="image" />
+                          </div>
+                          <div class="msg-content">
+                            <p>Today, 10: 31</p>
+                            <p class="msg">Simply dummy text of the printing and typesetting industry. Lorem Ipsum had been industry's</p>
+                          </div>
+                        </div>
+                        <div class="msg-received msg-sent">
+                          <div class="msg-content">
+                            <p>Today, 10: 31</p>
+                            <p class="msg">Are we meeting today?</p>
+                          </div>
+                        </div>
+                        <div class="msg-received msg-sent">
+                          <div class="msg-content">
+                            <p>Today, 10: 31</p>
+                            <p class="msg">The project finally complete! Let's go to!</p>
+                          </div>
+                        </div>
+                        <div class="msg-received">
+                          <div class="msg-image">
+                            <img src="images/team/user-2.jpg" alt="image" />
+                          </div>
+                          <div class="msg-content">
+                            <p>Today, 10: 31</p>
+                            <p class="msg">Let's go</p>
+                          </div>
+                        </div>
+                        <div class="msg-reply">
+                          <input type="text" placeholder="Enter text here..." />
+                          <a href="#" class="btn btn-na mt-2 pull-right">Send Message</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="form-outline mb-3">
-                <input type="email" id="form6Example5" class="form-control bg-sfgrey-2 border border-light-c" placeholder="Email Address" />
-              </div>
-              <div class="form-outline mb-2">
-                <textarea class="form-control bg-sfgrey-2 border border-light-c" id="form6Example7" placeholder="Message" rows="4"></textarea>
-              </div>
-              <button type="submit" class="btn">Send Message</button>
-            </form>
+            </div>
           </div>
         </div>
+        <!-- Content / End -->
       </div>
-    </section>
-    <!-- Contact end -->
-
-    <!-- Emergency start -->
-    <section class="how-it-works bgc-sfgrey-3 pb-0">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 col-md-12">
-            <div class="sc-title-two sc-border-left appoint-info mb-8 w-100">
-              <i class="fas fa-phone-volume bg-lgreen"></i>
-              <h3 class="mt-2">Need An Emergecny Help</h3>
-              <h2 class="cl-lgreen fs-1 mb-3">Call: +952-543256</h2>
-            </div>
-            <div class="appoint-detail">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-12">
-            <div class="hotline-img pl-4 pr-4">
-              <img src="images/inner/n-e1633078810928.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Emergency end -->
-
-    <!-- Call to action start -->
-    <section class="call-to p-5 bg-green">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-4 col-md-12">
-            <div class="call-contact d-flex align-items-center">
-              <i class="fas fa-phone-alt display-6 cl-white"></i>
-              <div class="pl-3">
-                <h4 class="cl-white">Looking For Consultation?</h4>
-                <p class="m-0 cl-white">(+6) 23 555 0892</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-12">
-            <p class="call-to-mid cl-white">Contact us for all questions and thinks those. We will proud to you</p>
-          </div>
-          <div class="col-lg-4 col-md-12 text-center">
-            <a href="contact.html" class="btn btn-white">Get Consultation</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Call to action end -->
+    </div>
+    <!-- Dashboard / End -->
 
     <!-- Footer starts -->
     <footer class="footer bg-ftblue">
@@ -405,7 +513,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugin.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/custom-swiper.js"></script>
     <script src="js/custom-nav.js"></script>
+    <script src="js/jpanelmenu.min.js"></script>
+    <script src="js/dashboard-custom.js"></script>
   </body>
 </html>
