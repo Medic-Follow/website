@@ -492,7 +492,7 @@ section {
 .sc-title-two-white {
     position: relative;
     width: 50%;
-    margin: 0 auto 90px;
+    margin: auto auto auto;
 }
 
 .sc-title-two h4,
