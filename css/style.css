@@ -25,6 +25,14 @@ footer {
     padding: 0;
 }
 
+img.rounded-corners-10 {
+    border-radius: 10%;
+}
+
+img.rounded-corners-5 {
+    border-radius: 5%;
+}
+
 @media (min-width: 1400px) {
     .container,
     .container-lg,
@@ -2043,7 +2051,6 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
     display: block;
     padding: 80px 0px 80px 0px;
     margin-top: 8.5rem;
-    background-image: url(../images/blog/female-medical-worker-2021-04-03-03-56-15-utc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -3123,7 +3130,6 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
 .comming-soon {
     position: relative;
     padding: 120px 0;
-    background-image: url(../images/lightbox/female-medical-worker-2021-04-03-03-56-15-utc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
