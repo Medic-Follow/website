@@ -37,7 +37,7 @@
             <div class="container">
                 <div class="top-info d-flex justify-content-between align-items-center">
                     <ul class="t-address">
-                        <li class="pr-2"><i class="far fa-clock"></i> Disponible 24H/24, 7J/7</li>
+                        <li class="pr-2"><i class="far fa-clock"></i>Disponible 24H/24, 7J/7</li>
                         <li class="pr-2"><i class="fas fa-phone-alt"></i> Contactez-nous sur la page <a href="contact.html">"Contact"</a></li>
                         <li><i class="far fa-envelope"></i> contact@medicfollow.com</li>
                     </ul>
@@ -74,20 +74,24 @@
                                     <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MedicFollow <i
                                             class="fas fa-chevron-down"></i></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="index.html#project" class="nav-link smoothScroll">Notre projet</a></li>
-                                        <li><a href="index.html#activity" class="nav-link smoothScroll">Nos activités</a></li>
-                                        <li><a href="index.html#team" class="nav-link smoothScroll">Notre équipe</a></li>
+                                        <li><a href="index.html#project" class="nav-link smoothScroll">Notre projet</a>
+                                        </li>
+                                        <li><a href="index.html#activity" class="nav-link smoothScroll">Nos
+                                                activités</a></li>
+                                        <li><a href="index.html#team" class="nav-link smoothScroll">Notre équipe</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li><a href="solutions.html">Nos solutions</a></li>
                                 <li><a href="contact.html">Contactez-nous / FAQ</a></li>
                                 <li class="dropdown submenu active">
                                     <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-language"> </i><i
-                                        class="fas fa-chevron-down"></i></a>
+                                            class="fas fa-chevron-down"></i></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="index.html#project" class="nav-link smoothScroll">Notre projet</a></li>
-                                        <li><a href="index.html#activity" class="nav-link smoothScroll">Nos activités</a></li>
-                                        <li><a href="index.html#team" class="nav-link smoothScroll">Notre équipe</a></li>
+                                        <li><a href="#" onclick="setLanguage('en')">English</a></li>
+                                        <li><a href="#" onclick="setLanguage('fr')">Français</a></li>
+                                        <li><a href="#" onclick="setLanguage('es')">Español</a></li>
+                                        <li><a href="#" onclick="setLanguage('de')">Deutsch</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -117,6 +121,7 @@
                 <div class="row flex-row-reverse align-items-end">
                     <div class="col-lg-6 col-md-12 col-sm-12 text-end">
                         <div class="banner-ct-wrap">
+                            <div id="div1">oui</div>
                             <div class="banner-head">
                                 <h4 class="cl-green">MEDICFOLLOW</h4>
                                 <h1>Votre outil de communication avec vos proches</h1>
@@ -619,11 +624,29 @@
     <script src="js/custom-swiper.js"></script>
     <script src="js/custom-nav.js"></script>
     <script>
-        glowCookies.start('fr', {
-            policyLink: 'https://cssscript.com/privacy-policy/',
-            acceptBtnBackground: "#1DAC90",
-            hideAfterClick: false, // true when online, false for tests
-            border: 'border',
+        var language;
+
+        function getLanguage() {
+            (localStorage.getItem('language') == null) ? setLanguage('en'): false;
+            $.ajax({
+                url: '/language/' + localStorage.getItem('language') + '.json',
+                dataType: 'json',
+                async: false,
+                dataType: 'json',
+                success: function(lang) {
+                    language = lang
+                }
+            });
+        }
+
+        function setLanguage(lang) {
+            localStorage.setItem('language', lang);
+        }
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#div1').text(language.date);
         });
     </script>
 </body>
