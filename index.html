@@ -16,6 +16,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!--Custom CSS-->
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/glowCookies.css" rel="stylesheet" />
     <!--Plugin CSS-->
     <link href="css/plugin.css" rel="stylesheet" type="text/css" />
     <!--Font Awesome-->
@@ -601,11 +602,18 @@
 
     <!-- *Scripts* -->
     <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/glowCookies.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugin.js"></script>
     <script src="js/main.js"></script>
     <script src="js/custom-swiper.js"></script>
     <script src="js/custom-nav.js"></script>
+    <script>
+        glowCookies.start('fr', {
+            policyLink: 'https://cssscript.com/privacy-policy/',
+            acceptBtnBackground: "#1DAC90",
+        });
+    </script>
 </body>
 
 </html>
