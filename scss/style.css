@@ -2217,7 +2217,7 @@ header #navbar {
     line-height: 2.7;
     color: #777;
     font-size: 15px;
-    padding: 0px 20px;
+    padding: 0px 10px;
     font-weight: 400;
     letter-spacing: .30px;
     -webkit-transition: all 150ms linear;
@@ -2373,7 +2373,7 @@ header #navbar {
         line-height: 2.7;
         color: #777;
         font-size: 15px;
-        padding: 0px 20px;
+        padding: 0px 10px;
         letter-spacing: .30px;
         transition: all 150ms linear;
         display: block
