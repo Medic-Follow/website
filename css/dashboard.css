@@ -487,10 +487,6 @@ span.num-rating.white {
     box-sizing: border-box;
 }
 
-.add-comment .button {
-    min-width: 160px;
-}
-
 
 /* Leave Rating */
 
@@ -3296,8 +3292,7 @@ a:not([href]):not([tabindex]) {
     right: 0;
     border-radius: 0px;
     padding: 0;
-    min-width: 200px;
-    border-color: #eee;
+    border-color: rgba(0, 0, 0, 0);
 }
 
 .notification-menu h4,

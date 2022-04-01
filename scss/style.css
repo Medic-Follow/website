@@ -2342,7 +2342,6 @@ header #navbar {
         position: absolute;
         top: 40px;
         left: 0px;
-        min-width: 220px;
         background: #fff;
         box-shadow: 0 0 15px #cccccc57;
         text-align: left;

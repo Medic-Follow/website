@@ -1898,8 +1898,7 @@ header #navbar {
         position: absolute;
         top: 50px;
         left: 0px;
-        min-width: 220px;
-        background: #fff;
+        background: rgba(0, 0, 0, 0);
         -webkit-box-shadow: 0 0 15px #cccccc57;
         box-shadow: 0 0 15px #cccccc57;
         text-align: left;

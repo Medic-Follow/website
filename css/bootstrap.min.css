@@ -41,7 +41,7 @@
 }
 
 @media (prefers-reduced-motion:no-preference) {
-    :root {
+     :root {
         scroll-behavior: smooth
     }
 }
@@ -3715,7 +3715,7 @@ fieldset:disabled .btn {
     color: #212529;
     text-align: left;
     list-style: none;
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0);
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, .15);
     border-radius: .25rem
