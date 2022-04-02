@@ -1057,7 +1057,7 @@ input#submit:hover {
     width: 400px;
     height: 300px;
     margin: 0 auto;
-    background: url(../images/loader.gif);
+    background: url(../../images/loader.gif);
     background-size: cover;
     background-position: center;
     opacity: 1;
@@ -3299,7 +3299,7 @@ section.featured .featured-discount h6 {
 }
 
 .content-listing {
-    background: #fff url(../images/testimonial.png) no-repeat;
+    background: #fff url(../../images/testimonial.png) no-repeat;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3512,7 +3512,7 @@ section.featured .featured-discount h6 {
     top: 10px;
     right: 0;
     bottom: 0;
-    background: #fff url(../images/testimonial.png);
+    background: #fff url(../../images/testimonial.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3794,7 +3794,7 @@ section.about-detail .about-detail-content {
 
 .about-us1:before {
     content: '';
-    background: url(../images/bottom-bg.png) repeat-x;
+    background: url(../../images/bottom-bg.png) repeat-x;
     position: absolute;
     top: -20px;
     left: 0;
@@ -3806,7 +3806,7 @@ section.about-detail .about-detail-content {
 
 .about-us1:after {
     content: '';
-    background: url(../images/top-bg.png) repeat-x;
+    background: url(../../images/top-bg.png) repeat-x;
     position: absolute;
     bottom: -34px;
     left: 0;
@@ -4252,7 +4252,7 @@ section.call-to-action1:after {
 }
 
 section.call-to-action.maincounter {
-    background-image: url(../images/calltoaction3.jpg);
+    background-image: url(../../images/calltoaction3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4472,7 +4472,7 @@ section.pricing-tab .price-tabmain .price-list .price-box.price-recommended .pri
 }
 
 .testimonial {
-    background: url(../images/bg/rev-bg.png) no-repeat;
+    background: url(../../images/bg/rev-bg.png) no-repeat;
     background-position: bottom;
     background-size: cover;
     background-attachment: fixed
@@ -4601,7 +4601,7 @@ section.pricing-tab .price-tabmain .price-list .price-box.price-recommended .pri
     left: 130px;
     width: 91px;
     height: 40px;
-    background-image: url(../images/testi-shape.png);
+    background-image: url(../../images/testi-shape.png);
     background-repeat: no-repeat;
     content: ""
 }
@@ -4701,7 +4701,7 @@ section.pricing-tab .price-tabmain .price-list .price-box.price-recommended .pri
 }
 
 .testimonial1 {
-    background: #f1f1f1 url(../images/testimonial.png) no-repeat;
+    background: #f1f1f1 url(../../images/testimonial.png) no-repeat;
     background-position: bottom;
     background-size: cover;
     background-attachment: fixed
@@ -4727,7 +4727,7 @@ section.pricing-tab .price-tabmain .price-list .price-box.price-recommended .pri
     left: 130px;
     width: 91px;
     height: 40px;
-    background-image: url(../images/testi-shape.png);
+    background-image: url(../../images/testi-shape.png);
     background-repeat: no-repeat;
     content: ""
 }
@@ -5751,7 +5751,7 @@ section.booking .booking-box .soc-log a.facebook-log:hover {
 
 .error.error1:before {
     content: '';
-    background: url(../images/trending-bg.jpg) no-repeat;
+    background: url(../../images/trending-bg.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: absolute;
@@ -7405,7 +7405,7 @@ section.blog .grid .grid-item1 .date {
 .author-news {
     position: relative;
     overflow: hidden;
-    background: url(../images/bg/bg5.jpg) no-repeat;
+    background: url(../../images/bg/bg5.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

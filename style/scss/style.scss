@@ -676,7 +676,7 @@ nav.navbar.navbar-default.navbar-sticky-in {
 }
 
 .bg-map {
-    @include include-img(0, url(../images/shape/testimonial.png), fixed, cover);
+    @include include-img(0, url(../../images/shape/testimonial.png), fixed, cover);
 }
 
 .short-info {
@@ -885,7 +885,7 @@ nav.navbar.navbar-default.navbar-sticky-in {
 /*          Testimonial  CSS        */
 
 .testimonials {
-    background: url(../images/shape/testimonial.png) #fff;
+    background: url(../../images/shape/testimonial.png) #fff;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1082,7 +1082,7 @@ nav.navbar.navbar-default.navbar-sticky-in {
 
 .emergency-call {
     position: relative;
-    background-image: url(../images/inner/medical-nurse-worker-examining-a-medical-report-2021-04-03-23-54-24-utc.jpg);
+    background-image: url(../../images/inner/medical-nurse-worker-examining-a-medical-report-2021-04-03-23-54-24-utc.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1252,7 +1252,7 @@ nav.navbar.navbar-default.navbar-sticky-in {
 
 .solution {
     position: relative;
-    background-image: url(../images/shape/testimonial.png);
+    background-image: url(../../images/shape/testimonial.png);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1370,7 +1370,7 @@ nav.navbar.navbar-default.navbar-sticky-in {
 
 // How It Works
 .how-it-works {
-    @include include-img(0, url("../images/shape/hero-shapes.png"),
+    @include include-img(0, url("../../images/shape/hero-shapes.png"),
     initial,
     contain,
     100%);
@@ -1549,7 +1549,7 @@ nav.navbar.navbar-default.navbar-sticky-in {
 .error-mg {
     margin-top: 8.5rem;
     @include include-img(0,
-    url("../images/shape/testimonial.png"),
+    url("../../images/shape/testimonial.png"),
     fixed,
     cover,
     100%);
