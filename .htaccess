@@ -1,0 +1,9 @@
+DirectoryIndex index.html
+
+ErrorDocument 404 en/404.html
+
+RewriteEngine On
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+AccessFileName ht.access
