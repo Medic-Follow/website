@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://medicfollow.francecentral.cloudapp.azure.com/</loc>
+  <lastmod>2022-04-04T13:09:31+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://medicfollow.francecentral.cloudapp.azure.com/fr/contact.html</loc>
+  <lastmod>2022-04-04T13:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://medicfollow.francecentral.cloudapp.azure.com/index.html</loc>
+  <lastmod>2022-04-04T13:09:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://medicfollow.francecentral.cloudapp.azure.com/fr/solutions.html</loc>
+  <lastmod>2022-04-04T13:09:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://medicfollow.francecentral.cloudapp.azure.com/en/index.html</loc>
+  <lastmod>2022-04-04T13:09:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://medicfollow.francecentral.cloudapp.azure.com/fr/404.html</loc>
+  <lastmod>2022-04-04T13:09:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://medicfollow.francecentral.cloudapp.azure.com/fr/confidentiality.html</loc>
+  <lastmod>2022-04-04T13:09:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://medicfollow.francecentral.cloudapp.azure.com/fr/usage.html</loc>
+  <lastmod>2022-04-04T13:09:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://medicfollow.francecentral.cloudapp.azure.com/en/contact.html</loc>
+  <lastmod>2022-04-04T13:34:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://medicfollow.francecentral.cloudapp.azure.com/en/solutions.html</loc>
+  <lastmod>2022-04-04T13:09:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://medicfollow.francecentral.cloudapp.azure.com/en/404.html</loc>
+  <lastmod>2022-04-04T13:09:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://medicfollow.francecentral.cloudapp.azure.com/en/confidentiality.html</loc>
+  <lastmod>2022-04-04T13:09:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://medicfollow.francecentral.cloudapp.azure.com/en/usage.html</loc>
+  <lastmod>2022-04-04T13:09:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
