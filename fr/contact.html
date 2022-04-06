@@ -63,9 +63,12 @@
                                     <a href="../index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MedicFollow <i
                                             class="fas fa-chevron-down"></i></a>
                                     <ul class="dropdown-menu" style="background: white; border-radius: 5%;">
-                                        <li><a href="../index.html#project" class="nav-link smoothScroll">Notre projet</a></li>
-                                        <li><a href="../index.html#activity" class="nav-link smoothScroll">Nos activités</a></li>
-                                        <li><a href="../index.html#team" class="nav-link smoothScroll">Notre équipe</a></li>
+                                        <li><a href="../index.html#project" class="nav-link smoothScroll">Notre
+                                                projet</a></li>
+                                        <li><a href="../index.html#activity" class="nav-link smoothScroll">Nos
+                                                activités</a></li>
+                                        <li><a href="../index.html#team" class="nav-link smoothScroll">Notre équipe</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li><a href="solutions.html">Nos solutions</a></li>
@@ -73,15 +76,15 @@
                                 <li>
                                     <a role="button" href="../en/contact.html">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 512 512">
-                                        <mask>
-                                            <circle cx="256" cy="256" r="256" fill="#fff" />
-                                        </mask>
-                                        <g mask="url(#b)">
-                                            <path fill="#eee" d="M167 0h178l25.9 252.3L345 512H167l-29.8-253.4z" />
-                                            <path fill="#0052b4" d="M0 0h167v512H0z" />
-                                            <path fill="#d80027" d="M345 0h167v512H345z" />
-                                        </g>
-                                    </svg>
+                                            <mask>
+                                                <circle cx="256" cy="256" r="256" fill="#fff" />
+                                            </mask>
+                                            <g mask="url(#b)">
+                                                <path fill="#eee" d="M167 0h178l25.9 252.3L345 512H167l-29.8-253.4z" />
+                                                <path fill="#0052b4" d="M0 0h167v512H0z" />
+                                                <path fill="#d80027" d="M345 0h167v512H345z" />
+                                            </g>
+                                        </svg>
                                     </a>
                                 </li>
                             </ul>
@@ -139,27 +142,11 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="map-wrap">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d430.2694081970167!2d5.354768459242479!3d43.49211793288951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9ed0ac4fed18b%3A0xdf42a0837d09af15!2sBrasserie%20Y&#39;Z!5e0!3m2!1sfr!2sfr!4v1646663212119!5m2!1sfr!2sfr"
-                            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+                            width=100% height="600" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 ps-lg-5">
-                    <form class="text-center">
-                        <div class="row mb-3">
-                            <div class="form-outline">
-                                <input type="text" id="form6Example1" class="form-control bg-sfgrey-2 border border-light-c" placeholder="Nom Complet" />
-                            </div>
-                        </div>
-                        <div class="form-outline mb-3">
-                            <input type="number" id="form6Example6" class="form-control bg-sfgrey-2 border border-light-c" placeholder="Numéro de Téléphone" />
-                        </div>
-                        <div class="form-outline mb-3">
-                            <input type="email" id="form6Example5" class="form-control bg-sfgrey-2 border border-light-c" placeholder="Adresse Mail" />
-                        </div>
-                        <div class="form-outline mb-2">
-                            <textarea class="form-control bg-sfgrey-2 border border-light-c" id="form6Example7" placeholder="Message" rows="4"></textarea>
-                        </div>
-                        <button class="g-recaptcha btn" data-sitekey="6LcZOEMfAAAAAAx5jMirBWy0O4lubIV3xu-9QpFu" data-callback='onSubmit' data-action='submit'>Envoyer le message</button>
-                    </form>
+                    <div data-paperform-id="5oq0vcpy"></div>
                 </div>
             </div>
         </div>
@@ -422,9 +409,11 @@
     <script src="../js/custom-nav.js"></script>
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <script>
-        function onSubmit(token) {
-            document.getElementById("demo-form").submit();
-        }
+        (function() {
+            var script = document.createElement('script');
+            script.src = "https://paperform.co/__embed.min.js";
+            document.body.appendChild(script);
+        })()
     </script>
 </body>
 
