@@ -462,8 +462,8 @@ class LanguagesGC {
 
 const glowCookies = new GlowCookies()
 
-glowCookies.start('fr', {
-    policyLink: 'https://cssscript.com/privacy-policy/',
+glowCookies.start('en', {
+    policyLink: 'http://medicfollow.francecentral.cloudapp.azure.com/en/usage.html',
     acceptBtnBackground: "#1DAC90",
     hideAfterClick: false, // true when online, false for tests
     border: 'border',
