@@ -10,4 +10,9 @@ RewriteEngine   on
 RewriteCond     %{REQUEST_URI}      ^.*/index\.html$
 RewriteRule     ^(.*/)index.html$   $1      [R,L]
 
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
+
 AccessFileName ht.access
