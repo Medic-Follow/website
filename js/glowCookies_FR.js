@@ -36,17 +36,17 @@ class GlowCookies {
 
         // COOKIES BANNER
         this.Cookies = document.createElement("div");
-        this.Cookies.innerHTML = `<div 
-                                    id="glowCookies-banner" 
+        this.Cookies.innerHTML = `<div
+                                    id="glowCookies-banner"
                                     class="glowCookies__banner glowCookies__banner__${this.config.bannerStyle} glowCookies__${this.config.border} glowCookies__${this.config.position}"
                                     style="background-color: ${this.banner.background};"
                                 >
                                     <h3 style="color: ${this.banner.color};">${this.banner.heading}</h3>
                                     <p style="color: ${this.banner.color};">
-                                        ${this.banner.description} 
-                                        <a 
+                                        ${this.banner.description}
+                                        <a
                                             href="${this.banner.link}"
-                                            target="_blank" 
+                                            target="_blank"
                                             class="read__more"
                                             style="color: ${this.banner.color};"
                                         >
@@ -463,7 +463,7 @@ class LanguagesGC {
 const glowCookies = new GlowCookies()
 
 glowCookies.start('fr', {
-    policyLink: 'http://medicfollow.francecentral.cloudapp.azure.com/fr/usage.html',
+    policyLink: 'https://medicfollow.fr/fr/usage.html',
     acceptBtnBackground: "#1DAC90",
     hideAfterClick: false, // true when online, false for tests
     border: 'border',

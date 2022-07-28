@@ -8,57 +8,57 @@
 
 
 <url>
-  <loc>http://medicfollow.francecentral.cloudapp.azure.com/</loc>
+  <loc>https://medicfollow.fr/</loc>
   <lastmod>2022-04-04T13:09:31+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://medicfollow.francecentral.cloudapp.azure.com/fr/contact.html</loc>
+  <loc>https://medicfollow.fr/fr/contact.html</loc>
   <lastmod>2022-04-04T13:34:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://medicfollow.francecentral.cloudapp.azure.com/index.html</loc>
+  <loc>https://medicfollow.fr/index.html</loc>
   <lastmod>2022-04-04T13:09:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://medicfollow.francecentral.cloudapp.azure.com/fr/solutions.html</loc>
+  <loc>https://medicfollow.fr/fr/solutions.html</loc>
   <lastmod>2022-04-04T13:09:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://medicfollow.francecentral.cloudapp.azure.com/en/index.html</loc>
+  <loc>https://medicfollow.fr/en/index.html</loc>
   <lastmod>2022-04-04T13:09:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://medicfollow.francecentral.cloudapp.azure.com/fr/404.html</loc>
+  <loc>https://medicfollow.fr/404.html</loc>
   <lastmod>2022-04-04T13:09:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://medicfollow.francecentral.cloudapp.azure.com/fr/usage.html</loc>
+  <loc>https://medicfollow.fr/fr/usage.html</loc>
   <lastmod>2022-04-04T13:09:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://medicfollow.francecentral.cloudapp.azure.com/en/contact.html</loc>
+  <loc>https://medicfollow.fr/en/contact.html</loc>
   <lastmod>2022-04-04T13:34:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://medicfollow.francecentral.cloudapp.azure.com/en/solutions.html</loc>
+  <loc>https://medicfollow.fr/en/solutions.html</loc>
   <lastmod>2022-04-04T13:09:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://medicfollow.francecentral.cloudapp.azure.com/en/404.html</loc>
+  <loc>https://medicfollow.fr/404en.html</loc>
   <lastmod>2022-04-04T13:09:31+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://medicfollow.francecentral.cloudapp.azure.com/en/usage.html</loc>
+  <loc>https://medicfollow.fr/en/usage.html</loc>
   <lastmod>2022-04-04T13:09:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
