@@ -1,4 +1,4 @@
-ErrorDocument 404 /var/wwww/html/404.html
+ErrorDocument 404 404.html
 
 DirectoryIndex index.html
 
